@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import Switch from "react-switch";
+import { useTranslation } from "react-i18next";
 import { Icon } from "@iconify/react";
 import { TypeAnimation } from "react-type-animation";
 import { ThemeContext, ThemeContextInterface } from "@/contexts";
@@ -9,6 +10,7 @@ const Header = () => {
     ThemeContext,
   ) as ThemeContextInterface;
 
+  const { t} = useTranslation();
 
   return (
     <>
@@ -18,6 +20,7 @@ const Header = () => {
             <Icon
               className="text-gray-dark"
               icon="la:laptop-code"
+              
               style={{
                 height: "100%",
                 fontSize: 150,
@@ -26,11 +29,11 @@ const Header = () => {
           </div>
 
           <h1 className="text-4xl font-bold text-gray-dark dark:text-white">
-            {("basic_info.name")}
+            {t("basic_info.name")}
           </h1>
 
           <TypeAnimation
-            sequence={("basic_info.titles", { returnObjects: true }).flatMap(
+            sequence={t("basic_info.titles", { returnObjects: true }).flatMap(
               (title: string) => [title, 1000],
             )}
             wrapper="span"
@@ -71,3 +74,4 @@ const Header = () => {
 };
 
 export default Header;
+
