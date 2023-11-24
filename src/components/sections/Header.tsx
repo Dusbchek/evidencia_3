@@ -26,11 +26,11 @@ const Header = () => {
           </div>
 
           <h1 className="text-4xl font-bold text-gray-dark dark:text-white">
-            {t("basic_info.name")}
+            {("basic_info.name")}
           </h1>
 
           <TypeAnimation
-            sequence={t("basic_info.titles", { returnObjects: true }).flatMap(
+            sequence={("basic_info.titles", { returnObjects: true }).flatMap(
               (title: string) => [title, 1000],
             )}
             wrapper="span"
