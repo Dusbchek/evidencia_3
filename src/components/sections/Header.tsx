@@ -9,7 +9,6 @@ const Header = () => {
     ThemeContext,
   ) as ThemeContextInterface;
 
-  const { t, i18n } = useTranslation();
 
   return (
     <>
