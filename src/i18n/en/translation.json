@@ -1,0 +1,171 @@
+{
+  "basic_info": {
+    "name": "Aexis Dubschek",
+    "titles": [
+      "Desarrollador Front-end",
+      "Desarrolador Mobile",
+      "Desarrollador Back-end"
+    ],
+    "socials": [
+      
+      {
+        "icon": "mdi:github",
+        "url": "https://github.com/Dusbchek"
+      },
+      {
+        "icon": "mdi:twitter",
+        "url": "https://twitter.com/DuckZJava"
+      }
+    ]
+  },
+  "about_me": {
+    "title": "Sobre mi",
+    "greeting": "Hola",
+    "content": " Hola, soy Alexis Dubschek, soy un estudiente de desarrollo de software en universidad Tecmileno campus Las torres, soy de Monterrey,NL, tengo pansion por el desarrollo web y mobile, siendo un aspirante a programador Fullstack manejando tanto como Front-end como Back-end. Mi objetivo profesional es convertirme en un desarrollador Senior Fullstack haciendo uso de tecnologias como React, Laravel, mySQL, etc.",
+    "image": "p7.jpg",
+    "tech_stacks": ["devicon:angular", "devicon:react", "devicon:vuejs"]
+  },
+  "projects": {
+    "title": "Projectos",
+    "projects": [
+      {
+        "title": "BooksForAll",
+        "startDate": "2023",
+        "description": "Página web con enfoque Eccomerce con el objetivo de vender libros sobre divulgación y desarrollo web",
+        "images": [
+          "images/portfolio/animal-shelter/p3.jpg",
+          "images/portfolio/animal-shelter/p4.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "mdi:angular",
+            "name": "Angular"
+          },
+          {
+            "class": "yicons:typescript-outline",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon:csharp",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "La vaca",
+        "startDate": "2023",
+        "description": "Juego de adivinar creado en lógica pura de Java, este juego tiene el proposito de ir aprendiendo comoforme juegas con el creciando su base de datos y logrando cada vez adivinar mas animales",
+        "images": [
+          "images/portfolio/photography/p5.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          
+          {
+            "class": "teenyicons:javascript-outline",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Hunt the Wumpus",
+        "startDate": "2022",
+        "description": "Juego programado en Java donde el juegador debe navegar por deversas cavernas hasta encontrar al wumpus capturarlo y posteriormente regresar a la salida con el, el jugador posee un medidor de oxigeno que baja en 1 por cada caverna en la que se mueve cabe recalcar que el mapa de cavernas siempre es diferente y el juego nunca es igual",
+        "images": [
+          "images/portfolio/adventure/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "teenyicons:javascript-outline",
+            "name": "JavaScript"
+          }
+        
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades",
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "ri:html5-fill",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "teenyicons:css3-solid",
+        "level": "95"
+      },
+      {
+        "name": "Angular",
+        "class": "mdi:angular",
+        "level": "80"
+      },
+      {
+        "name": "TypeScript",
+        "class": "teenyicons:typescript-solid",
+        "level": "90"
+      },
+      {
+        "name": "JavaScript",
+        "class": "teenyicons:javascript-solid",
+        "level": "70"
+      },
+      {
+        "name": "Sass",
+        "class": "la:sass",
+        "level": "75"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "ri:bootstrap-fill",
+        "level": "85"
+      },
+      {
+        "name": "C#",
+        "class": "devicon-plain:csharp",
+        "level": "65"
+      },
+      {
+        "name": "MySql",
+        "class": "fontisto:mysql",
+        "level": "60"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experiencia",
+    "experiences": [
+      {
+        "company": "Tecmilenio",
+        "title": "Desarrollador principal BooksForAll",
+        "years": "2023",
+        "mainTech": "React",
+        "mainTechIcon": "mdi:react",
+        "technologies": [
+          "REST API",
+          "RxJS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "EF Core",
+          ".NET Core",
+          "SignalR",
+          "Angular Material"
+        ]
+      },
+      {
+        "company": "Tecmilenio",
+        "title": "Desarrollador de videojuegos-Wumpus",
+        "years": "2022",
+        "mainTech": "javascript",
+        "mainTechIcon": "mdi:javascript",
+        "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+      }
+    ]
+  },
+  "copyright": "Copyright"
+}
