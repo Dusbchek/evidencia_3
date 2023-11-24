@@ -1,7 +1,5 @@
 import { useContext } from "react";
 import Switch from "react-switch";
-import clsx from "clsx";
-import { useTranslation } from "react-i18next";
 import { Icon } from "@iconify/react";
 import { TypeAnimation } from "react-type-animation";
 import { ThemeContext, ThemeContextInterface } from "@/contexts";
